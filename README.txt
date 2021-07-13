@@ -5,7 +5,9 @@ The name of the controller is not much relevant to the tasks going on inside con
 In distancefeed method, its directly accessing model which violates repository pattern.
 In many places try catch blocks are missing,and DB transactions while storing data in multiple tables.
 There should be a JobRepository, i have seen many methods which can move from Job model to JobRepository.
-Some methods dont have proper comments
+Some methods dont have proper comments.
+Return json response should be moved in BaseController to standardized response and reduce redundancy.
+
 
 Logic in some places is not good as there is a lot of redundancy in code.So many if else conditions. 
 
