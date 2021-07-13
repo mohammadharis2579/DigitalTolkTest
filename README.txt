@@ -7,6 +7,6 @@ In many places try catch blocks are missing,and DB transactions while storing da
 There should be a JobRepository, i have seen many methods which can move from Job model to JobRepository.
 Some methods dont have proper comments
 
-Logic in some places is not good as there is a lot of redundancy in code.
+Logic in some places is not good as there is a lot of redundancy in code.So many if else conditions. 
 
 Formatting is good, but spaces are required in some places for example in if condition clause to make code more readable.
